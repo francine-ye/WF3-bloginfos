@@ -1,0 +1,106 @@
+#wordwrap {
+    word-wrap: break-word;
+}
+
+h1{
+  text-align: center;
+}
+
+th, td{
+      border:  1px solid black;
+      text-align: center;
+      padding: 0.5rem;
+      font-family: 'Aref Ruqaa', serif;
+
+}
+
+th{
+    background-color: #04b173;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+td img{
+    width: 10rem;
+    height: 10rem;
+}
+
+#tableau, #tableauComments{
+    width: 100%;
+    height: 50rem;
+    overflow-y: scroll;
+}
+
+#tableauStats{
+  width: 100%;
+    height: 45rem;
+    overflow-y: scroll;
+}
+
+#ColTableau{
+  padding: 0rem;
+}
+
+.myButton {
+      border-radius: 7px;
+      color: black;
+      padding: 1.5rem;
+}
+
+
+.myButton:hover {
+  color: #505050;
+  text-decoration: none;
+}
+
+button {
+
+      border-radius: 7px;
+      padding: 1rem;
+      font-family: 'Nova Script', cursive;
+      display: block;
+      margin: 2rem  auto;
+      color: black;
+}
+
+label, input +select +#avatar {
+    /* in order to define widths */
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    /* positions the label text beside the input */
+    text-align: right;
+}
+
+label + input +select +#avatar {
+    width: 30%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+input + input {
+    float: right;
+}
+
+input[type="file"] {
+    display: initial;
+}
+
+input[type='submit'] {
+      border-radius: 7px;
+      padding: 0.7rem;
+      font-family: 'Nova Script', cursive;
+      display: block;
+      margin: auto;
+}
+
+.panel-body{
+   padding: 0 2rem;
+}
